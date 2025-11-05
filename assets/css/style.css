@@ -5080,4 +5080,7 @@ blockquote::after,
 .copyright-area ul li:first-child {
     margin-left: 0;
 }
-/*for testing  */
+
+.bold {
+    font-weight: bold;
+}
