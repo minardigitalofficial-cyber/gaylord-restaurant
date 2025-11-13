@@ -2414,7 +2414,7 @@ p:last-child {
     position: relative;
 }
 
-.menu-section .menu-filter-box .nav li {
+.menu-section .menu-filter-box .nav a {
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
@@ -2434,8 +2434,8 @@ p:last-child {
     transition: all 0.5s ease-in-out 0s;
 }
 
-.menu-section .menu-filter-box .nav li:hover,
-.menu-section .menu-filter-box .nav li.filter-active {
+.menu-section .menu-filter-box .nav a:hover,
+.menu-section .menu-filter-box .nav a.filter-active {
     color: #fff;
     background-color: #ff8d25;
     -moz-transition: all 0.5s ease-in-out 0s;
@@ -3217,7 +3217,7 @@ p:last-child {
 .reservation-section {
     position: relative;
     z-index: 1;
-    background-image: url(../img/banner-bg.jpg);
+    background-image: url(../img/reservation.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
